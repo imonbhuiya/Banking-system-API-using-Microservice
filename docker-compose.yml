@@ -2,7 +2,7 @@ version: '4'    # docker compose file format version
 services:
   mongodb:      # service name
     image: mongo:7.0.5   # pulls official MongoDB 7.0.5 image
-    container_name: mongodb
+    container_name: mongodb #container Name
     ports:
       - "27017:27017"    # exposes MongoDB on localhost:27017
     environment:
